@@ -31,4 +31,14 @@ Aplikasi real-time face recognition yang mencocokkan wajahmu dengan karakter wai
    
 5. Jalankan Aplikasi
    python app.py
-   
+
+   # Contoh Output (Hasil Prediksi)
+   Waifu kamu dari tampangmu adalah:
+   💘 Albedo
+   (94.57%)
+
+   Kenapa cocok? → Tatapanmu tajam dan tenang, cocok dengan Albedo yang setia dan elegan.
+
+
+   # Pengembang
+   Rais Rasyad Shidiq – @Reyeis
