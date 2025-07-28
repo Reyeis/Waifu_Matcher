@@ -23,8 +23,8 @@ Aplikasi real-time face recognition yang mencocokkan wajahmu dengan karakter wai
 
 # Cara Menjalankan Aplikasi
 1. Clone Repository
-   git clone https://github.com/namakamu/waifu-matcher-ai.git
-   cd waifu-matcher-ai
+   git clone https://github.com/Reyeis/Waifu_Matcher.git
+   cd Waifu_Matcher
 
 3. Install Dependensi
    pip install -r requirements.txt
