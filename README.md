@@ -39,19 +39,23 @@ Contoh output:
 -----------------------------------------------------------------
 
 # Struktur Proyek 
-waifu-matcher-ai/
-├── app.py
-├── templates/
-│   └── index.html
-├── static/
-│   └── unknown_faces/
-├── model/
-│   ├── face_recognition_model.h5
-│   ├── waifu_match_model.h5
-│   ├── label_encoder_classes.npy
-│   └── waifu_label_encoder_classes.npy
-├── waifu_reasons.py
-└── README.md
+-------------------------------------------------------------------------------------------------------------------
+| Path                                       | Deskripsi                                                          |
+| ------------------------------------------ | ------------------------------------------------------------------ |
+| waifu-matcher-ai/                          | Direktori utama proyek                                             |
+| ├── app.py                                 | File utama Flask untuk menjalankan server dan logika deteksi       |
+| ├── templates/                             | Folder untuk file HTML (template Flask)                            |
+| │   └── index.html                         | Tampilan utama aplikasi web                                        |
+| ├── static/                                | Folder berisi file statis seperti gambar/foto yang tidak berubah   |
+| │   └── unknown\_faces/                    | Folder untuk menyimpan wajah pengguna yang tidak dikenal/dideteksi |
+| ├── model/                                 | Folder model machine learning                                      |
+| │   ├── face\_recognition\_model.h5        | Model CNN untuk mengenali wajah                                    |
+| │   ├── waifu\_match\_model.h5             | Model klasifikasi untuk prediksi waifu                             |
+| │   ├── label\_encoder\_classes.npy        | File LabelEncoder untuk kelas wajah pengguna                       |
+| │   └── waifu\_label\_encoder\_classes.npy | LabelEncoder untuk label waifu                                     |
+| ├── waifu\_reasons.py                      | Berisi mapping alasan kenapa wajah cocok dengan waifu tertentu     |
+| └── README.md                              | Dokumentasi proyek dan petunjuk penggunaan                         |
+-------------------------------------------------------------------------------------------------------------------
 
 # Pengembang
 Rais Rasyad Shidiq – @Reyeis
